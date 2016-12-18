@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80F220B1E04BB7D00A20D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F220A1E04BB7D00A20D9E /* AppDelegate.swift */; };
+		F80F220D1E04BB7D00A20D9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F220C1E04BB7D00A20D9E /* ViewController.swift */; };
+		F80F22101E04BB7D00A20D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80F220E1E04BB7D00A20D9E /* Main.storyboard */; };
+		F80F22121E04BB7D00A20D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80F22111E04BB7D00A20D9E /* Assets.xcassets */; };
+		F80F22151E04BB7D00A20D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80F22131E04BB7D00A20D9E /* LaunchScreen.storyboard */; };
+		F80F22201E04BB7E00A20D9E /* geo_quizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F221F1E04BB7E00A20D9E /* geo_quizTests.swift */; };
+		F80F222B1E04BB7E00A20D9E /* geo_quizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F222A1E04BB7E00A20D9E /* geo_quizUITests.swift */; };
+		F880A6AE1E04D7FD00AA3EC5 /* inputs.txt in Resources */ = {isa = PBXBuildFile; fileRef = F880A6AD1E04D7FD00AA3EC5 /* inputs.txt */; };
+		F880A6B11E04DC6800AA3EC5 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F880A6B01E04DC6800AA3EC5 /* StreamReader.swift */; };
+		F880A6B31E04DD0B00AA3EC5 /* Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = F880A6B21E04DD0B00AA3EC5 /* Capital.swift */; };
+		F880A6B51E04DF0E00AA3EC5 /* CoordinateConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F880A6B41E04DF0E00AA3EC5 /* CoordinateConvertor.swift */; };
+		F880A6BD1E06429D00AA3EC5 /* QuizTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F880A6BC1E06429D00AA3EC5 /* QuizTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F80F221C1E04BB7E00A20D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80F21FF1E04BB7D00A20D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80F22061E04BB7D00A20D9E;
+			remoteInfo = "geo-quiz";
+		};
+		F80F22271E04BB7E00A20D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80F21FF1E04BB7D00A20D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80F22061E04BB7D00A20D9E;
+			remoteInfo = "geo-quiz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F80F22071E04BB7D00A20D9E /* geo-quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "geo-quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80F220A1E04BB7D00A20D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F80F220C1E04BB7D00A20D9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F80F220F1E04BB7D00A20D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F80F22111E04BB7D00A20D9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F80F22141E04BB7D00A20D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F80F22161E04BB7D00A20D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80F221B1E04BB7E00A20D9E /* geo-quizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "geo-quizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80F221F1E04BB7E00A20D9E /* geo_quizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geo_quizTests.swift; sourceTree = "<group>"; };
+		F80F22211E04BB7E00A20D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80F22261E04BB7E00A20D9E /* geo-quizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "geo-quizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80F222A1E04BB7E00A20D9E /* geo_quizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geo_quizUITests.swift; sourceTree = "<group>"; };
+		F80F222C1E04BB7E00A20D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F880A6AD1E04D7FD00AA3EC5 /* inputs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = inputs.txt; sourceTree = "<group>"; };
+		F880A6B01E04DC6800AA3EC5 /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
+		F880A6B21E04DD0B00AA3EC5 /* Capital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Capital.swift; sourceTree = "<group>"; };
+		F880A6B41E04DF0E00AA3EC5 /* CoordinateConvertor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateConvertor.swift; sourceTree = "<group>"; };
+		F880A6BC1E06429D00AA3EC5 /* QuizTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F80F22041E04BB7D00A20D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80F22181E04BB7E00A20D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80F22231E04BB7E00A20D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80F21FE1E04BB7D00A20D9E = {
+			isa = PBXGroup;
+			children = (
+				F80F22091E04BB7D00A20D9E /* geo-quiz */,
+				F80F221E1E04BB7E00A20D9E /* geo-quizTests */,
+				F80F22291E04BB7E00A20D9E /* geo-quizUITests */,
+				F80F22081E04BB7D00A20D9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F80F22081E04BB7D00A20D9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80F22071E04BB7D00A20D9E /* geo-quiz.app */,
+				F80F221B1E04BB7E00A20D9E /* geo-quizTests.xctest */,
+				F80F22261E04BB7E00A20D9E /* geo-quizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80F22091E04BB7D00A20D9E /* geo-quiz */ = {
+			isa = PBXGroup;
+			children = (
+				F880A6AF1E04DC4C00AA3EC5 /* Utils */,
+				F80F220A1E04BB7D00A20D9E /* AppDelegate.swift */,
+				F80F220C1E04BB7D00A20D9E /* ViewController.swift */,
+				F80F220E1E04BB7D00A20D9E /* Main.storyboard */,
+				F80F22111E04BB7D00A20D9E /* Assets.xcassets */,
+				F80F22131E04BB7D00A20D9E /* LaunchScreen.storyboard */,
+				F80F22161E04BB7D00A20D9E /* Info.plist */,
+				F880A6AD1E04D7FD00AA3EC5 /* inputs.txt */,
+				F880A6B21E04DD0B00AA3EC5 /* Capital.swift */,
+				F880A6BC1E06429D00AA3EC5 /* QuizTableViewController.swift */,
+			);
+			path = "geo-quiz";
+			sourceTree = "<group>";
+		};
+		F80F221E1E04BB7E00A20D9E /* geo-quizTests */ = {
+			isa = PBXGroup;
+			children = (
+				F80F221F1E04BB7E00A20D9E /* geo_quizTests.swift */,
+				F80F22211E04BB7E00A20D9E /* Info.plist */,
+			);
+			path = "geo-quizTests";
+			sourceTree = "<group>";
+		};
+		F80F22291E04BB7E00A20D9E /* geo-quizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F80F222A1E04BB7E00A20D9E /* geo_quizUITests.swift */,
+				F80F222C1E04BB7E00A20D9E /* Info.plist */,
+			);
+			path = "geo-quizUITests";
+			sourceTree = "<group>";
+		};
+		F880A6AF1E04DC4C00AA3EC5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F880A6B01E04DC6800AA3EC5 /* StreamReader.swift */,
+				F880A6B41E04DF0E00AA3EC5 /* CoordinateConvertor.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F80F22061E04BB7D00A20D9E /* geo-quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80F222F1E04BB7E00A20D9E /* Build configuration list for PBXNativeTarget "geo-quiz" */;
+			buildPhases = (
+				F80F22031E04BB7D00A20D9E /* Sources */,
+				F80F22041E04BB7D00A20D9E /* Frameworks */,
+				F80F22051E04BB7D00A20D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "geo-quiz";
+			productName = "geo-quiz";
+			productReference = F80F22071E04BB7D00A20D9E /* geo-quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F80F221A1E04BB7E00A20D9E /* geo-quizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80F22321E04BB7E00A20D9E /* Build configuration list for PBXNativeTarget "geo-quizTests" */;
+			buildPhases = (
+				F80F22171E04BB7E00A20D9E /* Sources */,
+				F80F22181E04BB7E00A20D9E /* Frameworks */,
+				F80F22191E04BB7E00A20D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F80F221D1E04BB7E00A20D9E /* PBXTargetDependency */,
+			);
+			name = "geo-quizTests";
+			productName = "geo-quizTests";
+			productReference = F80F221B1E04BB7E00A20D9E /* geo-quizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F80F22251E04BB7E00A20D9E /* geo-quizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80F22351E04BB7E00A20D9E /* Build configuration list for PBXNativeTarget "geo-quizUITests" */;
+			buildPhases = (
+				F80F22221E04BB7E00A20D9E /* Sources */,
+				F80F22231E04BB7E00A20D9E /* Frameworks */,
+				F80F22241E04BB7E00A20D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F80F22281E04BB7E00A20D9E /* PBXTargetDependency */,
+			);
+			name = "geo-quizUITests";
+			productName = "geo-quizUITests";
+			productReference = F80F22261E04BB7E00A20D9E /* geo-quizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80F21FF1E04BB7D00A20D9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = stefan;
+				TargetAttributes = {
+					F80F22061E04BB7D00A20D9E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F80F221A1E04BB7E00A20D9E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F80F22061E04BB7D00A20D9E;
+					};
+					F80F22251E04BB7E00A20D9E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F80F22061E04BB7D00A20D9E;
+					};
+				};
+			};
+			buildConfigurationList = F80F22021E04BB7D00A20D9E /* Build configuration list for PBXProject "geo-quiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F80F21FE1E04BB7D00A20D9E;
+			productRefGroup = F80F22081E04BB7D00A20D9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80F22061E04BB7D00A20D9E /* geo-quiz */,
+				F80F221A1E04BB7E00A20D9E /* geo-quizTests */,
+				F80F22251E04BB7E00A20D9E /* geo-quizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F80F22051E04BB7D00A20D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80F22151E04BB7D00A20D9E /* LaunchScreen.storyboard in Resources */,
+				F80F22121E04BB7D00A20D9E /* Assets.xcassets in Resources */,
+				F80F22101E04BB7D00A20D9E /* Main.storyboard in Resources */,
+				F880A6AE1E04D7FD00AA3EC5 /* inputs.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80F22191E04BB7E00A20D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80F22241E04BB7E00A20D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F80F22031E04BB7D00A20D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F880A6B11E04DC6800AA3EC5 /* StreamReader.swift in Sources */,
+				F880A6B51E04DF0E00AA3EC5 /* CoordinateConvertor.swift in Sources */,
+				F880A6BD1E06429D00AA3EC5 /* QuizTableViewController.swift in Sources */,
+				F80F220D1E04BB7D00A20D9E /* ViewController.swift in Sources */,
+				F880A6B31E04DD0B00AA3EC5 /* Capital.swift in Sources */,
+				F80F220B1E04BB7D00A20D9E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80F22171E04BB7E00A20D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80F22201E04BB7E00A20D9E /* geo_quizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80F22221E04BB7E00A20D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80F222B1E04BB7E00A20D9E /* geo_quizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F80F221D1E04BB7E00A20D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F80F22061E04BB7D00A20D9E /* geo-quiz */;
+			targetProxy = F80F221C1E04BB7E00A20D9E /* PBXContainerItemProxy */;
+		};
+		F80F22281E04BB7E00A20D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F80F22061E04BB7D00A20D9E /* geo-quiz */;
+			targetProxy = F80F22271E04BB7E00A20D9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F80F220E1E04BB7D00A20D9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80F220F1E04BB7D00A20D9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F80F22131E04BB7D00A20D9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80F22141E04BB7D00A20D9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F80F222D1E04BB7E00A20D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F80F222E1E04BB7E00A20D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F80F22301E04BB7E00A20D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "geo-quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sjsu.cs175.geo-quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F80F22311E04BB7E00A20D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "geo-quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sjsu.cs175.geo-quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F80F22331E04BB7E00A20D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "geo-quizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sjsu.cs175.geo-quizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geo-quiz.app/geo-quiz";
+			};
+			name = Debug;
+		};
+		F80F22341E04BB7E00A20D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "geo-quizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sjsu.cs175.geo-quizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geo-quiz.app/geo-quiz";
+			};
+			name = Release;
+		};
+		F80F22361E04BB7E00A20D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "geo-quizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sjsu.cs175.geo-quizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "geo-quiz";
+			};
+			name = Debug;
+		};
+		F80F22371E04BB7E00A20D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "geo-quizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sjsu.cs175.geo-quizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "geo-quiz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F80F22021E04BB7D00A20D9E /* Build configuration list for PBXProject "geo-quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80F222D1E04BB7E00A20D9E /* Debug */,
+				F80F222E1E04BB7E00A20D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80F222F1E04BB7E00A20D9E /* Build configuration list for PBXNativeTarget "geo-quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80F22301E04BB7E00A20D9E /* Debug */,
+				F80F22311E04BB7E00A20D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80F22321E04BB7E00A20D9E /* Build configuration list for PBXNativeTarget "geo-quizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80F22331E04BB7E00A20D9E /* Debug */,
+				F80F22341E04BB7E00A20D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80F22351E04BB7E00A20D9E /* Build configuration list for PBXNativeTarget "geo-quizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80F22361E04BB7E00A20D9E /* Debug */,
+				F80F22371E04BB7E00A20D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F80F21FF1E04BB7D00A20D9E /* Project object */;
+}
